@@ -6,3 +6,8 @@ const stringToNumber = function(str){
     return (num);
     // результат --> 1234
 }
+
+// короткая версия
+var stringToNumber = function(str){
+    return Number(str);
+}
