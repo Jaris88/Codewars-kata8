@@ -11,5 +11,9 @@ function replace(s){
     const noVowels = s.replace(/[aeiou]/gi, '!');
     // вызов переменной
     return noVowels;
+}
 
+// Короче
+function replace(s){
+    return s.replace(/[aeiou]/gi, '!');
 }
