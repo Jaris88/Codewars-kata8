@@ -5,3 +5,8 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     // Вызываем результат через
     return(res);
 }
+
+// Короче, без задания новой переменной, сразу через return
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;;
+}
