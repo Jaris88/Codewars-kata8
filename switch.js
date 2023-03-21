@@ -5,7 +5,7 @@ Return the number of days that are in month.
 There is no need for input validation: month will always be greater than 0 and less than or equal to 12. */
 
 
-function howManydays(month){
+function howManydays(month){ //
     switch (month){ // метод
         case 2: // if 2 === 28;
             return 28;
@@ -19,5 +19,5 @@ function howManydays(month){
 
 
     }
-    return month;
+    return month; //
 }
