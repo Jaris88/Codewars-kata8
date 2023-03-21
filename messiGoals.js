@@ -8,5 +8,5 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 
 // Короче, без задания новой переменной, сразу через return
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;;
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
